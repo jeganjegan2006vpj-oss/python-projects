@@ -1,0 +1,12 @@
+patients = []
+
+patients.append({
+    "name": "Jegan",
+    "age": 21,
+    "disease": "Fever"
+})
+
+for patient in patients:
+    print("Patient:", patient["name"])
+    print("Age:", patient["age"])
+    print("Disease:", patient["disease"])

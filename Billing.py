@@ -1,0 +1,10 @@
+print("====Billing System====")
+product=input("Enter product name: ")
+price=float(input("Enter price: "))
+quantity=int(input("Enter quantity: "))
+total=price*quantity
+print("===== BILL =====")
+print("Product:",product)
+print("Price:",price)
+print("Quantity:",quantity)
+print("Total:",total)
